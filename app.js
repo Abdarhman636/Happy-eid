@@ -6,6 +6,7 @@ const interactionEvent = function () {
 
 var namee = document.getElementById('name')
 const downloadBtn = document.getElementById('download-btn')
+const test = document.getElementById('test')
 // var printname = document.getElementById('printname')
 
 // namee.onkeyup = function () {
@@ -26,7 +27,8 @@ function drawImage() {
      ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
      ctx.font = '35px ammar'
      ctx.fillStyle = '#0b2a4a'
-     ctx.fillText(namee.value, 250, 505)
+     ctx.class = 'test'
+     ctx.fillText(namee.value, 240, 505)
 }
 
 function updateText() {

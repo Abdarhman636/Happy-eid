@@ -86,3 +86,7 @@ input:focus {
   margin: auto;
   width: 80px;
 }
+
+.test {
+  color: red !important;
+}
