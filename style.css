@@ -27,14 +27,14 @@ body {
   justify-content: center;
 }
 
-img {
+canvas {
   width: 100%;
 }
 
 .display-name {
   bottom: 13%;
   position: absolute;
-  width: 50%;
+  width: 30%;
   height: 50px;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ h1 {
   color: #0b2a4a;
 }
 
-form {
+.form {
   text-align: center;
 }
 h1 {
@@ -68,9 +68,20 @@ input {
   border: 0;
   font-size: 17px;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 
 input:focus {
   border: 2px solid #0b2a4a;
   outline: none;
+}
+#download-btn {
+  color: white;
+  background-color: #0b2a4a;
+  border-radius: 5px;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  margin: auto;
+  width: 80px;
 }

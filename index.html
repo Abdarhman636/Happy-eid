@@ -12,16 +12,19 @@
 <body>
      <div class="container">
           <section class="main">
-               <img src="main-img.png" alt="">
-               <div class="display-name">
+               <!-- <img src="main-img.png" alt=""> -->
+               <!-- <div class="display-name">
                     <h1 id="printname"></h1>
-               </div>
+               </div> -->
+               <canvas id="canvas" height="600px" width="600px"></canvas>
           </section>
 
           <section class="form">
                <form>
                     <h1 for="name">ادخل اسمك هنا</h1>
-                    <input type="text" name="name" id="name" onchange="changeName()" placeholder=" عمار الشهري">
+                    <input type="text" name="name" id="name" placeholder=" عمار الشهري">
+                    
+                    <a href="#" id="download-btn">حفظ الصورة</a>
                </form>
           </section>
      </div>
