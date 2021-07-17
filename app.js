@@ -23,7 +23,7 @@ function drawImage() {
      ctx.fillText(namee.value, 250, 500)
 }
 
-namee.onkeyup = function () {
+function updateText() {
      const name = namee.value
      drawImage()
 }
@@ -31,5 +31,5 @@ namee.onkeyup = function () {
 
 downloadBtn.addEventListener('click', function () {
      downloadBtn.href = canvas.toDataURL()
-     downloadBtn.download = "تهنئة عيد" + namee.value
+     downloadBtn.download = " تهنئة عيد " + namee.value
 })
