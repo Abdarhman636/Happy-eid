@@ -1,3 +1,9 @@
+const interactionEvent = function () {
+     const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+     return iOS ? 'touchstart' : 'click';
+};
+
+
 var namee = document.getElementById('name')
 const downloadBtn = document.getElementById('download-btn')
 // var printname = document.getElementById('printname')
@@ -18,9 +24,9 @@ img.onload = function () {
 
 function drawImage() {
      ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
-     ctx.font = '1.8rem ammar'
+     ctx.font = '35px ammar'
      ctx.fillStyle = '#0b2a4a'
-     ctx.fillText(namee.value, 250, 500)
+     ctx.fillText(namee.value, 250, 505)
 }
 
 function updateText() {
