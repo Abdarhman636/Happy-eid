@@ -23,10 +23,10 @@ function drawImage() {
      ctx.fillText(namee.value, 250, 500)
 }
 
-namee.addEventListener('input', function () {
+namee.onkeyup = function () {
      const name = namee.value
      drawImage()
-})
+}
 
 
 downloadBtn.addEventListener('click', function () {
